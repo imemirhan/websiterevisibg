@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="check-box.css">
+
+    <script type="text/javascript" src="js/dark_light_mode.js"></script>
+    <script type="module" src="js/cool_section_effect.js"></script>
+    <script type="module" src="js/cool_product_effect.js"></script>
+    <script type="module" src="js/background_effect.js"></script>
+</head>
+<body>
+
+    <canvas id="myCanvas"></canvas>
+
+    <div class="container">
+        <div class="logo-circle">
+            <div class="outside-text">
+                <p>THE.EVERYTHING.APP.</p>
+            </div>
+            <div class="on-top-of-each-others">
+
+                <div class="logo">
+                    <p>TEA</p>
+                    <!-- it will be backgrund of text as url in the css -->
+                </div>
+                <div class="inside-text slide-right">
+                    <p>TEA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="checkbox-replacer">
+        <div class="dark-light-mode">
+            <input type="checkbox" class="sc-gJwTLC ikxBAC" id="dark-light-mode" onclick="displayMode()">
+        </div>
+    </div>
+
+    <section class="hidden">
+        <h1>Hi Everything User!</h1>
+        <p>This is our website</p>
+    </section>
+
+    <section class="hidden">
+        <h2>Buy this product</h2>
+        <p class="long-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestiae eos aliquam a cum similique magnam, dolores nulla voluptatibus, officia ab minima earum sed quidem obcaecati inventore! Eveniet corporis repellendus sapiente dolor ipsa eos dicta.
+        </p>
+    </section>
+
+    <section>
+        <h2 class="hidden long-text">It's really good for your team!</h2>
+        <div class="products">
+            <div class="product hidden-left-to-right">
+                <div class="hov_effect">
+                    <img src="https://api.dicebear.com/7.x/icons/svg?seed=Misty" alt="avatar"/>
+                </div>
+            </div>
+            <div class="product hidden-left-to-right">
+                <div class="hov_effect">
+                    <img src="https://api.dicebear.com/7.x/icons/svg?seed=Annie" alt="avatar"/>
+                </div>
+            </div>
+            <div class="product hidden-left-to-right">
+                <div class="hov_effect">
+                    <img src="https://api.dicebear.com/7.x/icons/svg?seed=Cleo" alt="avatar"/>
+                </div>
+            </div>
+            <div class="product hidden-left-to-right">
+                <div class="hov_effect">
+                    <img src="https://api.dicebear.com/7.x/icons/svg?seed=Buster" alt="avatar"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="user-select:auto;">EveryThingApp All Rights Reserved ©</p>
+    </footer>
+
+
+    <!-- rotating text for logo js -->
+    <script>
+        const outside_text = document.querySelector('.outside-text p');
+        outside_text.innerHTML = outside_text.innerText.split('').map(
+            (char, i) => 
+            `<span style="transform:rotate(${i * 360/(outside_text.innerText.length)}deg)">${char}</span>`
+        ).join('');
+    </script>
+
+</body>
+</html>
