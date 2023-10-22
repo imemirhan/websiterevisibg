@@ -1,29 +1,16 @@
 <!DOCTYPE html>
 <html
-  class="sayfa-turu-ana-sayfa sayfa-dili-tr ust-bar-dolu ust-serit-sol-dolu ust-serit-sag-dolu banner-ust-dolu orta-ust-bos orta-alt-dolu govde-ust-bos sol-bos sag-dolu govde-alt-bos banner-alt-dolu footer-dolu"
-  data-page-id="104423"
+  class="sayfa-turu-kategori sayfa-dili-tr ust-bar-dolu ust-serit-sol-dolu ust-serit-sag-dolu banner-ust-bos orta-ust-bos orta-alt-dolu govde-ust-bos sol-bos sag-bos govde-alt-bos banner-alt-bos footer-dolu"
+  lang="tr"
+  data-page-id="105209"
   data-site-id="5993"
   data-is-eticaret="0"
   data-is-ssl="1"
-  lang="tr"
 >
   <head>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Your solution partner for business management, 
-    quality management, project management, digital transformation. 
-    We analyze your organization's business processes end-to-end 
-    and create added value."
-    />
-    <meta
-      property="og:description"
-      content="Your solution partner for business management, 
-    quality management, project management, digital transformation. We analyze 
-    your organization's business processes end-to-end and create added value."
-    />
-
+    <title>Blog | Tmsoftech Yazılım</title>
+    <meta name="description" content="Blog" />
     <link
       rel="icon"
       href="//d25tea7qfcsjlw.cloudfront.net/5993/p/favicon-60c35fccd01c8.png"
@@ -32,24 +19,7 @@
       rel="apple-touch-icon"
       href="//d25tea7qfcsjlw.cloudfront.net/5993/p/favicon-60c35fccd01c8.png"
     />
-    <link rel="canonical" href="https://www.softech-tr.com/" />
-
-    <meta
-      property="og:title"
-      content="Softech | Solutions Which Make Life Easier"
-    />
-    <meta property="og:url" content="https://www.softech-tr.com/" />
-    <meta property="og:site_name" content="Softech Teknoloji ve Danışmanlık" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="https://d25tea7qfcsjlw.cloudfront.net/5993/link/104423/275132.png"
-    />
-    <meta property="og:image:width" content="669" />
-    <meta property="og:image:height" content="669" />
-    <meta property="og:image:alt" content="Workinton Marka ve Logo" />
-    <meta property="og:locale" content="tr_TR" />
-    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://www.softech-tr.com/blog" />
     <meta
       name="google-site-verification"
       content="LeqOFk-2J2remrrAOOa2IYgnniAV1WSe6Uu-b12bf3c"
@@ -991,6 +961,33 @@
       #bolum-google-arama form input:focus {
         outline: none;
       }
+      #kategori-sayfalandirma {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 2em;
+        clear: both;
+      }
+      #kategori-sayfalandirma li {
+        display: inline;
+      }
+      #kategori-sayfalandirma a {
+        display: inline-block;
+        padding: 4px 8px;
+      }
+      #kategori-sayfalandirma a:hover,
+      #kategori-sayfalandirma a:focus {
+        text-decoration: none;
+      }
+      #kategori-icerik-turu-metin .blog .item {
+        margin-bottom: 2rem;
+      }
+      .icerik:after {
+        content: "";
+        clear: both;
+        display: block;
+      }
       table {
         background-color: transparent;
         margin-bottom: 30px;
@@ -1047,6 +1044,30 @@
         opacity: 1;
         visibility: visible;
       }
+      .breadcrumb {
+        list-style: none;
+        margin: 30px 0;
+        padding: 0;
+        font-size: 0.9rem;
+        color: inherit;
+      }
+      .breadcrumb li {
+        display: inline-block;
+        margin: 2px;
+      }
+      .breadcrumb li:after {
+        content: "›";
+        display: inline-block;
+        margin-left: 4px;
+      }
+      .breadcrumb li:last-child:after {
+        content: "";
+        display: none;
+      }
+      .breadcrumb li a {
+        color: inherit;
+        text-transform: lowercase;
+      }
       .sutun .frameInner {
         display: flex;
         justify-content: space-between;
@@ -1099,112 +1120,6 @@
       #konum-sol .sutun .item,
       #konum-sag .sutun .item {
         width: 100%;
-      }
-      .carousel img {
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        -webkit-user-drag: none;
-        -webkit-touch-callout: none;
-      }
-      .carousel {
-        overflow: hidden;
-        position: relative;
-        cursor: move;
-        cursor: grab;
-        cursor: -moz-grab;
-        cursor: -webkit-grab;
-      }
-      .carousel:active {
-        cursor: grabbing;
-        cursor: -moz-grabbing;
-        cursor: -webkit-grabbing;
-      }
-      .carousel .frameInner {
-        transition: transform 0.5s;
-        white-space: nowrap;
-        font-size: 0;
-      }
-      .carousel .frameInner .item {
-        white-space: normal;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 1rem;
-      }
-      .carousel .itemInner:after {
-        clear: both;
-        content: "";
-        display: block;
-      }
-      .carousel .item,
-      .carousel.max1 .item {
-        width: 100%;
-      }
-      @media screen and (min-width: 768px) {
-        .carousel .item {
-          width: 50%;
-        }
-        .carousel .itemInner {
-          margin: 10px;
-        }
-      }
-      @media screen and (min-width: 992px) {
-        .carousel.max5 .item,
-        .carousel.max4 .item {
-          width: 33.3333%;
-        }
-        .carousel.max3 .item,
-        .carousel.max2 .item {
-          width: 50%;
-        }
-        .carousel .itemInner {
-          margin: 15px;
-        }
-      }
-      @media screen and (min-width: 1200px) {
-        .carousel.max5 .item {
-          width: 20%;
-        }
-        .carousel.max4 .item {
-          width: 25%;
-        }
-        .carousel.max3 .item {
-          width: 33.3333%;
-        }
-        .carousel.max2 .item {
-          width: 50%;
-        }
-        .carousel .frameInner {
-          transition: transform 1s;
-        }
-      }
-      .bolum-kolon-dikey .carousel .item {
-        width: 100%;
-      }
-      .carousel .prev,
-      .carousel .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        text-decoration: none;
-        font-size: 2rem;
-        padding: 0 10px;
-        border-radius: 50%;
-        transition: all 0.5s;
-      }
-      .carousel .prev:before {
-        content: "\276e";
-      }
-      .carousel .next:before {
-        content: "\276f";
-      }
-      .carousel .prev {
-        left: 1%;
-      }
-      .carousel .next {
-        right: 1%;
       }
       .modul-logo img {
         display: inline-block;
@@ -1278,594 +1193,6 @@
       }
       #mobil-sabit-menu span#msm-cart-qty {
         display: inline-block;
-      }
-      .vitrin {
-        position: relative;
-        user-select: none;
-        cursor: move;
-        cursor: grab;
-        overflow: hidden;
-        color-scheme: light only;
-      }
-      .vitrin:active {
-        cursor: grabbing;
-      }
-      .vitrin .frame {
-        display: block;
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-      }
-      .vitrin iframe {
-        border: none;
-      }
-      .o20 {
-        padding-top: 20%;
-      }
-      .o25 {
-        padding-top: 25%;
-      }
-      .o30 {
-        padding-top: 30%;
-      }
-      .o35 {
-        padding-top: 35%;
-      }
-      .o40 {
-        padding-top: 40%;
-      }
-      .o45 {
-        padding-top: 45%;
-      }
-      .o50 {
-        padding-top: 50%;
-      }
-      .o55 {
-        padding-top: 55%;
-      }
-      @media (max-width: 767px) {
-        .om20 {
-          padding-top: 20%;
-        }
-        .om25 {
-          padding-top: 25%;
-        }
-        .om30 {
-          padding-top: 30%;
-        }
-        .om35 {
-          padding-top: 35%;
-        }
-        .om40 {
-          padding-top: 40%;
-        }
-        .om45 {
-          padding-top: 45%;
-        }
-        .om50 {
-          padding-top: 50%;
-        }
-        .om55 {
-          padding-top: 55%;
-        }
-        .om60 {
-          padding-top: 60%;
-        }
-        .om70 {
-          padding-top: 70%;
-        }
-        .om80 {
-          padding-top: 80%;
-        }
-        .om90 {
-          padding-top: 90%;
-        }
-        .om100 {
-          padding-top: 100%;
-        }
-        .om125 {
-          padding-top: 125%;
-        }
-        .om150 {
-          padding-top: 150%;
-        }
-        .om175 {
-          padding-top: 175%;
-        }
-      }
-      .vitrin .item {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0;
-        visibility: hidden;
-      }
-      .vitrin .current {
-        opacity: 1;
-        visibility: visible;
-      }
-      .vitrin .bp-sag {
-        background-position: right;
-      }
-      .vitrin .bp-orta {
-        background-position: center;
-      }
-      .vitrin .bg-sol {
-        background-position: left;
-      }
-      .vitrin .icerik {
-        position: absolute;
-        visibility: hidden;
-        opacity: 0;
-        user-select: none;
-        transition: opacity 1s;
-        max-width: 86%;
-        width: fit-content;
-      }
-      .vitrin .current .icerik {
-        visibility: visible;
-        opacity: 1;
-      }
-      @media (min-width: 768px) {
-        .vitrin .ik-sol {
-          left: 9%;
-        }
-        .vitrin .ik-sag {
-          right: 9%;
-        }
-        .vitrin .ik-ust {
-          top: 10%;
-        }
-        .vitrin .ik-alt {
-          bottom: 10%;
-        }
-        .vitrin .ik-dorta {
-          top: 50%;
-          transform: translateY(-50%);
-        }
-        .vitrin .ik-yorta {
-          left: 50%;
-          transform: translateX(-50%);
-        }
-        .vitrin .ik-orta {
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-      }
-      @media (max-width: 767px) {
-        .vitrin .ikm-sol {
-          left: 7%;
-        }
-        .vitrin .ikm-sag {
-          right: 7%;
-        }
-        .vitrin .ikm-ust {
-          top: 10%;
-        }
-        .vitrin .ikm-alt {
-          bottom: 10%;
-        }
-        .vitrin .ikm-dorta {
-          top: 50%;
-          transform: translateY(-50%);
-          width: 100%;
-        }
-        .vitrin .ikm-yorta {
-          left: 50%;
-          transform: translateX(-50%);
-          width: 100%;
-        }
-        .vitrin .ikm-orta {
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 100%;
-        }
-      }
-      .vitrin .ih-sol {
-        text-align: left;
-      }
-      .vitrin .ih-sag {
-        text-align: right;
-      }
-      .vitrin .ih-orta {
-        text-align: center;
-      }
-      .vitrin .ip {
-        padding: 20px;
-      }
-      @media (max-width: 1200px) {
-        .vitrin .ip {
-          padding: 10px;
-        }
-      }
-      .vitrin .satir {
-        opacity: 0;
-        display: block;
-        text-decoration: none;
-        color: #fff;
-        margin: 4px;
-      }
-      .vitrin .satir span {
-        display: inline-block;
-      }
-      .vitrin a {
-        color: #fff;
-      }
-      .vitrin .ss-siyah {
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-      }
-      .vitrin .ss-beyaz {
-        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.35);
-      }
-      .vitrin .sb-kucuk {
-        font-size: 16px;
-        line-height: 24px;
-      }
-      .vitrin .sb-kucuk2 {
-        font-size: 22px;
-        line-height: 30px;
-      }
-      .vitrin .sb-orta {
-        font-size: 28px;
-        line-height: 42px;
-      }
-      .vitrin .sb-orta2 {
-        font-size: 34px;
-        line-height: 48px;
-      }
-      .vitrin .sb-buyuk {
-        font-size: 40px;
-        line-height: 50px;
-      }
-      .vitrin .sb-buyuk2 {
-        font-size: 48px;
-        line-height: 56px;
-      }
-      .vitrin .sb-enbuyuk {
-        font-size: 60px;
-        line-height: 72px;
-      }
-      .vitrin .sb-enbuyuk2 {
-        font-size: 72px;
-        line-height: 84px;
-      }
-      @media (max-width: 1200px) {
-        .vitrin .sb-kucuk,
-        .vitrin .sb-kucuk2 {
-          font-size: 16px;
-          line-height: 18px;
-        }
-        .vitrin .sb-orta,
-        .vitrin .sb-orta2 {
-          font-size: 22px;
-          line-height: 26px;
-        }
-        .vitrin .sb-buyuk,
-        .vitrin .sb-buyuk2 {
-          font-size: 30px;
-          line-height: 38px;
-        }
-        .vitrin .sb-enbuyuk,
-        .vitrin .sb-enbuyuk2 {
-          font-size: 38px;
-          line-height: 44px;
-        }
-      }
-      @media (max-width: 767px) {
-        .vitrin .sb-kucuk {
-          font-size: 14px;
-          line-height: 20px;
-        }
-        .vitrin .sb-kucuk2 {
-          font-size: 16px;
-          line-height: 22px;
-        }
-        .vitrin .sb-orta {
-          font-size: 20px;
-          line-height: 24px;
-        }
-        .vitrin .sb-orta2 {
-          font-size: 22px;
-          line-height: 26px;
-        }
-        .vitrin .sb-buyuk {
-          font-size: 28px;
-          line-height: 32px;
-        }
-        .vitrin .sb-buyuk2 {
-          font-size: 32px;
-          line-height: 34px;
-        }
-        .vitrin .sb-enbuyuk {
-          font-size: 36px;
-          line-height: 42px;
-        }
-        .vitrin .sb-enbuyuk2 {
-          font-size: 38px;
-          line-height: 46px;
-        }
-      }
-      .vitrin .sp span {
-        padding: 5px 20px;
-      }
-      @media (max-width: 1200px) {
-        .vitrin .sp span {
-          padding: 5px 15px;
-        }
-      }
-      @media (max-width: 767px) {
-        .vitrin .sp span {
-          padding: 2px 10px;
-        }
-      }
-      .vitrin .sw-1 {
-        font-weight: 100;
-      }
-      .vitrin .sw-2 {
-        font-weight: 200;
-      }
-      .vitrin .sw-3 {
-        font-weight: 300;
-      }
-      .vitrin .sw-4 {
-        font-weight: 400;
-      }
-      .vitrin .sw-5 {
-        font-weight: 500;
-      }
-      .vitrin .sw-6 {
-        font-weight: 600;
-      }
-      .vitrin .sw-7 {
-        font-weight: 700;
-      }
-      .vitrin .sw-8 {
-        font-weight: 800;
-      }
-      .vitrin .sw-9 {
-        font-weight: 900;
-      }
-      .vitrin .current .satir {
-        opacity: 1;
-        transform: translate(0, 0);
-        transition: opacity 1s, transform 1s;
-      }
-      .vitrin .current .sd-0 {
-        transition-delay: 0s;
-      }
-      .vitrin .current .sd-1 {
-        transition-delay: 1s;
-      }
-      .vitrin .current .sd-2 {
-        transition-delay: 2s;
-      }
-      .vitrin .current .sd-3 {
-        transition-delay: 3s;
-      }
-      .vitrin .current .sd-4 {
-        transition-delay: 4s;
-      }
-      .vitrin .current .sd-5 {
-        transition-delay: 5s;
-      }
-      .vitrin .current .sd-6 {
-        transition-delay: 6s;
-      }
-      .vitrin .current .sd-7 {
-        transition-delay: 7s;
-      }
-      .vitrin .current .sd-8 {
-        transition-delay: 8s;
-      }
-      .vitrin .current .sd-9 {
-        transition-delay: 9s;
-      }
-      .vitrin .current .sd-10 {
-        transition-delay: 10s;
-      }
-      .vitrin .st-bottom {
-        transform: translateY(-30px);
-      }
-      .vitrin .st-right {
-        transform: translateX(-70px);
-      }
-      .vitrin .st-left {
-        transform: translateX(70px);
-      }
-      .vitrin .st-top {
-        transform: translateY(30px);
-      }
-      .vitrin .st {
-        opacity: 0;
-      }
-      .vitrin .navOutNext,
-      .vitrin .navOutPrev,
-      .vitrin .navInNext,
-      .vitrin .navInPrev {
-        opacity: 1;
-        visibility: visible;
-      }
-      .vitrin .np {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        text-decoration: none;
-        opacity: 0;
-        font-size: 60px;
-        line-height: 60px;
-        color: #fff;
-        font-family: sans-serif;
-      }
-      .vitrin .prev {
-        left: 2%;
-        animation: fadeOutLeft 0.7s;
-      }
-      .vitrin .next {
-        right: 2%;
-        animation: fadeOutRight 0.5s;
-      }
-      .vitrin:hover .prev,
-      .vitrin:hover .next {
-        opacity: 1;
-      }
-      .vitrin:hover .prev {
-        animation: fadeInLeft 0.2s ease-in;
-      }
-      .vitrin:hover .next {
-        animation: fadeInRight 0.2s ease-in;
-      }
-      @media (max-width: 767px) {
-        .vitrin .np {
-          font-size: 40px;
-          line-height: 40px;
-        }
-      }
-      @keyframes fadeInLeft {
-        0% {
-          opacity: 0;
-          transform: translate(-100%, -50%);
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-      @keyframes fadeInRight {
-        0% {
-          opacity: 0;
-          transform: translate(100%, -50%);
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-      @keyframes fadeOutLeft {
-        0% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 0;
-          transform: translate(-100%, -50%);
-        }
-      }
-      @keyframes fadeOutRight {
-        0% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 0;
-          transform: translate(100%, -50%);
-        }
-      }
-      .vitrin .mb-5 {
-        margin-bottom: 5px;
-      }
-      .vitrin .mb-10 {
-        margin-bottom: 10px;
-      }
-      .vitrin .mb-15 {
-        margin-bottom: 15px;
-      }
-      .vitrin .mb-20 {
-        margin-bottom: 20px;
-      }
-      .vitrin .mb-30 {
-        margin-bottom: 30px;
-      }
-      .vitrin .fxFade .navOutNext,
-      .vitrin .fxFade .navOutPrev {
-        animation: fadeOut 2s;
-      }
-      .vitrin .fxFade .navInNext,
-      .vitrin .fxFade .navInPrev {
-        animation: fadeIn 2s;
-      }
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @keyframes fadeOut {
-        from {
-          opacity: 1;
-        }
-        to {
-          opacity: 0;
-        }
-      }
-      .modul-cerez {
-        display: none;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        top: auto;
-        z-index: 100;
-        padding: 15px 30px;
-        margin: 0 auto;
-        max-width: 1170px;
-        border: 1px solid #eee;
-        border-bottom: none;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        background-color: #fff;
-        text-align: justify;
-        color: #111;
-        line-height: 1.1rem;
-        font-size: 0.9rem;
-      }
-      .modul-cerez * {
-        font-size: inherit;
-        line-height: inherit;
-      }
-      .modul-cerez a {
-        color: inherit;
-        text-decoration: underline;
-      }
-      @media (min-width: 992px) {
-        .modul-cerez.ck-sag,
-        .modul-cerez.ck-sol {
-          width: 360px;
-        }
-        .modul-cerez.ck-sag {
-          left: auto;
-          border-top-right-radius: 0;
-          border-right: none;
-        }
-        .modul-cerez.ck-sol {
-          right: auto;
-          border-top-left-radius: 0;
-          border-left: none;
-        }
-      }
-      @media (max-width: 991px) {
-        .modul-cerez {
-          border-radius: 0;
-        }
-      }
-      .modul-cerez .cb {
-        margin: 0;
-        padding-bottom: 10px;
-      }
-      .modul-cerez p {
-        margin: 0;
-        padding-bottom: 10px;
-      }
-      .modul-cerez button {
-        border: none;
-        background: #000;
-        color: #fff;
-        padding: 5px 10px;
-        border-radius: 3px;
       }
       @font-face {
         font-family: "Muli";
@@ -2084,7 +1411,7 @@
       #konum-govde-alt .blog .item {
         background: #f3f1f0;
         font-size: 1rem;
-        line-height: 33px;
+        lin-height: 33px;
         padding: 10px;
       }
       #konum-govde-alt .itemBaslik {
@@ -2212,13 +1539,10 @@
         background: #f5f2f2;
       }
     </style>
-
-    <title>Softech | Solutions Which Make Life Easier</title>
-
     <script
       type="text/javascript"
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=G-LLCMS0WYFV&amp;l=dataLayer&amp;cx=c"
+      charset="utf-8"
+      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/a9a1f47eecd6d697765b294f4891a9a43a6b85d9/popup.js"
     ></script>
     <script
       type="text/javascript"
@@ -2320,14 +1644,6 @@
           format("woff2");
       }
     </style>
-
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="check-box.css" />
-
-    <script type="text/javascript" src="js/dark_light_mode.js"></script>
-    <script type="module" src="js/cool_section_effect.js"></script>
-    <script type="module" src="js/cool_product_effect.js"></script>
-    <script type="module" src="js/background_effect.js"></script>
   </head>
   <body>
     <noscript
@@ -2457,236 +1773,236 @@
                             class="modul modul-menu baslikYok"
                             data-modul-id="138812"
                           >
-                            <div class="modul-ic">
-                              <ul class="menu-seviye-1">
-                                <li class="aktif">
-                                  <a
-                                    href="/"
-                                    title="Softech | Solutions Which Make Life Easier"
-                                    ><span>Home</span></a
-                                  >
-                                </li>
-                                <li class="menuVar">
-                                  <a href="kurumsal.html" title="Softech | Kurumsal"
-                                    ><span>Kurumsal</span></a
-                                  >
-                                  <ul class="menu-seviye-2">
-                                    <li>
-                                      <a
-                                        href="hakkimizda.html"
-                                        title="Softech | Hakkımızda"
-                                        ><span>Hakkımızda</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="kalite-misyon-vizyon.html"
-                                        title="Softech | Kalite Felsefemiz Misyon Vizyon ve Değerlerimiz"
-                                        ><span>Kalite Misyon ve Vizyon</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a href="ekibimiz.html" title="Ekibimiz"
-                                        ><span>Ekibimiz</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="cozum-ortaklarimiz.html"
-                                        title="Çözüm Ortaklarımız"
-                                        ><span>Çözüm Ortaklarımız</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="insan-kaynaklari.html"
-                                        title="Softech | İnsan Kaynakları"
-                                        ><span>İnsan Kaynakları</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="referanslarimiz.html"
-                                        title="Softech | Referanslarımız"
-                                        ><span>Referanslarımız</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a href="galeri.html" title="Galeri"
-                                        ><span>Galeri</span></a
-                                      >
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li class="menuVar">
-                                  <a
-                                    href="tasarim-digital-reklam.html"
-                                    title="Softech | Digital Media"
-                                    ><span>Digital Medya</span></a
-                                  >
-                                  <ul class="menu-seviye-2">
-                                    <li>
-                                      <a
-                                        href="marka-ve-kurumsal-kimlik.html"
-                                        title="Softech | Marka ve Kurumsal Kimlik"
-                                        ><span
-                                          >Marka ve Kurumsal Kimlik</span
-                                        ></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="grafik-tasarim.html"
-                                        title="Softech | Grafik Tasarım"
-                                        ><span>Grafik Tasarım</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="dijital-pazarlama-ve-sosyal-medya.html"
-                                        title="Softech | Dijital Pazarlama ve Sosyal Medya"
-                                        ><span
-                                          >Dijital Pazarlama ve Sosyal
-                                          Medya</span
-                                        ></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="internet-hizmetleri.html"
-                                        title="Softech | Web Tasarım ve Geliştirme Hizmetleri"
-                                        ><span
-                                          >Web Tasarım ve Geliştirme
-                                          Hizmetleri</span
-                                        ></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="video-yapim-ve-seslendirme.html"
-                                        title="Softech | Video Yapım ve Seslendirme"
-                                        ><span
-                                          >Video Yapım ve Seslendirme</span
-                                        ></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="eposta-pazarlama.html"
-                                        title="Softech | Eposta Pazarlaması"
-                                        ><span>Eposta Pazarlama</span></a
-                                      >
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li class="menuVar">
-                                  <a
-                                    href="cozumler.html"
-                                    title="Softech | Bilgi Güçtür-İletişim Hayattır-Dijital Dönüşüm Danışmanlık ve Çözümleri"
-                                    ><span
-                                      >Bilgi ve İletişim Teknolojisi</span
-                                    ></a
-                                  >
-                                  <ul class="menu-seviye-2">
-                                    <li>
-                                      <a
-                                        href="gazi-bilisim.html"
-                                        title="Logo Yetkili Kurumsal Çözüm Ortağı: Gazi Bilişim"
-                                        ><span>Gazi Bilişim</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="uyumsoft.html"
-                                        title="Softech | Uyumsoft Çözümleri"
-                                        ><span>Uyumsoft</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="teracity.html"
-                                        title="Softech | Teracity Çözümleri"
-                                        ><span>Teracity</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="etgi-grup.html"
-                                        title="Softech | Etgi Grup Yenilikçi Uzaktan Eğitim Teknolojileri"
-                                        ><span>ETGİ Grup</span></a
-                                      >
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li class="menuVar">
-                                  <a
-                                    href="yonetim-danismanlik.html"
-                                    title="Softech | Academy'den Mezun Olun Kafanız Değişsin, Hayatınız Değişsin"
-                                    ><span>Softech Academy</span></a
-                                  >
-                                  <ul class="menu-seviye-2">
-                                    <li>
-                                      <a
-                                        href="vizyon-misyon-ve-degerler.html"
-                                        title="Softech Academy Vizyonu Misyonu ve Değerleri"
-                                        ><span
-                                          >Vizyon Misyon ve Değerler</span
-                                        ></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="dijital-donusum.html"
-                                        title="Softech | Dijital Dönüşüm Danışmanlığı"
-                                        ><span
-                                          >Dijital Dönüşüm Danışmanlığı</span
-                                        ></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="is-planlamasi-ve-yonetimi.html"
-                                        title="Softech | İş Yönetimi"
-                                        ><span>İş Yönetimi</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="proje-planlamasi.html"
-                                        title="Softech | Proje Yönetimi"
-                                        ><span>Proje Yönetimi</span></a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a
-                                        href="kalite-sistem-danismanligi.html"
-                                        title="Softech | Kalite Yönetim Sistemi"
-                                        ><span>Kalite Yönetimi</span></a
-                                      >
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li>
-                                  <a
-                                    href="bize-ulasin.html"
-                                    title="Softech | Bize Ulaşın"
-                                    ><span>Bize Ulaşın</span></a
-                                  >
-                                </li>
-                                <li>
-                                  <a
-                                    href="blog.html"
-                                    title="Blog | Tmsoftech Yazılım"
-                                    ><span>Blog</span></a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="s-s-s.html" title="Softech | S.S.S."
-                                    ><span>S.S.S.</span></a
-                                  >
-                                </li>
-                              </ul>
-                            </div>
+                          <div class="modul-ic">
+                            <ul class="menu-seviye-1">
+                              <li class="aktif">
+                                <a
+                                  href="/"
+                                  title="Softech | Solutions Which Make Life Easier"
+                                  ><span>Home</span></a
+                                >
+                              </li>
+                              <li class="menuVar">
+                                <a href="kurumsal.html" title="Softech | Kurumsal"
+                                  ><span>Kurumsal</span></a
+                                >
+                                <ul class="menu-seviye-2">
+                                  <li>
+                                    <a
+                                      href="hakkimizda.html"
+                                      title="Softech | Hakkımızda"
+                                      ><span>Hakkımızda</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="kalite-misyon-vizyon.html"
+                                      title="Softech | Kalite Felsefemiz Misyon Vizyon ve Değerlerimiz"
+                                      ><span>Kalite Misyon ve Vizyon</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="ekibimiz.html" title="Ekibimiz"
+                                      ><span>Ekibimiz</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="cozum-ortaklarimiz.html"
+                                      title="Çözüm Ortaklarımız"
+                                      ><span>Çözüm Ortaklarımız</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="insan-kaynaklari.html"
+                                      title="Softech | İnsan Kaynakları"
+                                      ><span>İnsan Kaynakları</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="referanslarimiz.html"
+                                      title="Softech | Referanslarımız"
+                                      ><span>Referanslarımız</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="galeri.html" title="Galeri"
+                                      ><span>Galeri</span></a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="menuVar">
+                                <a
+                                  href="tasarim-digital-reklam.html"
+                                  title="Softech | Digital Media"
+                                  ><span>Digital Medya</span></a
+                                >
+                                <ul class="menu-seviye-2">
+                                  <li>
+                                    <a
+                                      href="marka-ve-kurumsal-kimlik.html"
+                                      title="Softech | Marka ve Kurumsal Kimlik"
+                                      ><span
+                                        >Marka ve Kurumsal Kimlik</span
+                                      ></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="grafik-tasarim.html"
+                                      title="Softech | Grafik Tasarım"
+                                      ><span>Grafik Tasarım</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="dijital-pazarlama-ve-sosyal-medya.html"
+                                      title="Softech | Dijital Pazarlama ve Sosyal Medya"
+                                      ><span
+                                        >Dijital Pazarlama ve Sosyal
+                                        Medya</span
+                                      ></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="internet-hizmetleri.html"
+                                      title="Softech | Web Tasarım ve Geliştirme Hizmetleri"
+                                      ><span
+                                        >Web Tasarım ve Geliştirme
+                                        Hizmetleri</span
+                                      ></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="video-yapim-ve-seslendirme.html"
+                                      title="Softech | Video Yapım ve Seslendirme"
+                                      ><span
+                                        >Video Yapım ve Seslendirme</span
+                                      ></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="eposta-pazarlama.html"
+                                      title="Softech | Eposta Pazarlaması"
+                                      ><span>Eposta Pazarlama</span></a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="menuVar">
+                                <a
+                                  href="cozumler.html"
+                                  title="Softech | Bilgi Güçtür-İletişim Hayattır-Dijital Dönüşüm Danışmanlık ve Çözümleri"
+                                  ><span
+                                    >Bilgi ve İletişim Teknolojisi</span
+                                  ></a
+                                >
+                                <ul class="menu-seviye-2">
+                                  <li>
+                                    <a
+                                      href="gazi-bilisim.html"
+                                      title="Logo Yetkili Kurumsal Çözüm Ortağı: Gazi Bilişim"
+                                      ><span>Gazi Bilişim</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="uyumsoft.html"
+                                      title="Softech | Uyumsoft Çözümleri"
+                                      ><span>Uyumsoft</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="teracity.html"
+                                      title="Softech | Teracity Çözümleri"
+                                      ><span>Teracity</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="etgi-grup.html"
+                                      title="Softech | Etgi Grup Yenilikçi Uzaktan Eğitim Teknolojileri"
+                                      ><span>ETGİ Grup</span></a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="menuVar">
+                                <a
+                                  href="yonetim-danismanlik.html"
+                                  title="Softech | Academy'den Mezun Olun Kafanız Değişsin, Hayatınız Değişsin"
+                                  ><span>Softech Academy</span></a
+                                >
+                                <ul class="menu-seviye-2">
+                                  <li>
+                                    <a
+                                      href="vizyon-misyon-ve-degerler.html"
+                                      title="Softech Academy Vizyonu Misyonu ve Değerleri"
+                                      ><span
+                                        >Vizyon Misyon ve Değerler</span
+                                      ></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="dijital-donusum.html"
+                                      title="Softech | Dijital Dönüşüm Danışmanlığı"
+                                      ><span
+                                        >Dijital Dönüşüm Danışmanlığı</span
+                                      ></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="is-planlamasi-ve-yonetimi.html"
+                                      title="Softech | İş Yönetimi"
+                                      ><span>İş Yönetimi</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="proje-planlamasi.html"
+                                      title="Softech | Proje Yönetimi"
+                                      ><span>Proje Yönetimi</span></a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="kalite-sistem-danismanligi.html"
+                                      title="Softech | Kalite Yönetim Sistemi"
+                                      ><span>Kalite Yönetimi</span></a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a
+                                  href="bize-ulasin.html"
+                                  title="Softech | Bize Ulaşın"
+                                  ><span>Bize Ulaşın</span></a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="blog.html"
+                                  title="Blog | Tmsoftech Yazılım"
+                                  ><span>Blog</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="s-s-s.html" title="Softech | S.S.S."
+                                  ><span>S.S.S.</span></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
                           </nav>
                         </div>
                       </div>
@@ -2710,153 +2026,7 @@
             id="bolum-banner-ust"
             class="bolum-kolon-yatay bolum-banner-ust-alt"
           >
-            <div class="banner-ic">
-              <div id="konum-banner-ust" class="konum">
-                <div
-                  class="modul modul-vitrin baslikYok"
-                  data-modul-id="210216"
-                >
-                  <div class="modul-ic">
-                    <div class="vitrin">
-                      <div
-                        class="frame o35 om35 fxFade"
-                        data-is-cycle="1"
-                        data-is-arrows=""
-                        data-cycle-timeout="3"
-                        data-cdn-url="//d25tea7qfcsjlw.cloudfront.net/"
-                        style="
-                          touch-action: pan-y;
-                          user-select: none;
-                          -webkit-user-drag: none;
-                          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-                        "
-                      >
-                        <div
-                          class="item bp-sol"
-                          data-bg="5993/modul/210216/f9d73e.png"
-                          data-bg-mobile="5993/modul/210216/cfd2.png"
-                          style="
-                            background-color: rgb(33, 35, 39);
-                            background-image: url('//d25tea7qfcsjlw.cloudfront.net/5993/modul/210216/f9d73e.png');
-                          "
-                          data-initialised="1"
-                        >
-                          <div
-                            class="icerik ik-sag ik-ust ikm-sag ikm-ust ih-sag"
-                            data-bg-color=""
-                            data-bg-radius=""
-                          >
-                            <div
-                              class="satir st-top sd-1 sw-4 sb-buyuk sp"
-                              style="color: rgb(191, 243, 226)"
-                            >
-                              <span
-                                style="
-                                  background-color: rgb(0, NaN, NaN);
-                                  border-radius: 3px;
-                                "
-                                >Hoş geldiniz</span
-                              >
-                            </div>
-                            <div
-                              class="satir st-top sd-2 sw-4 sb-buyuk sp"
-                              style="color: rgb(191, 243, 226)"
-                            >
-                              <span
-                                style="
-                                  background-color: rgb(0, NaN, NaN);
-                                  border-radius: 3px;
-                                "
-                                >Sizin için ne yapabiliriz?</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="item bp-orta"
-                          data-bg="5993/modul/210216/967427.jpeg"
-                          data-bg-mobile="5993/modul/210216/d86a.jpeg"
-                          style="
-                            background-color: rgb(39, 97, 139);
-                            background-image: url('//d25tea7qfcsjlw.cloudfront.net/5993/modul/210216/967427.jpeg');
-                          "
-                          data-initialised="1"
-                        >
-                          <div
-                            class="icerik ik-orta ikm-orta ih-sag"
-                            data-bg-color=""
-                            data-bg-radius=""
-                          >
-                            <div
-                              class="satir st sd-0 sw-4 sb-enbuyuk ss-siyah sp"
-                              style="color: rgba(255, 255, 255, 0.97)"
-                            >
-                              <span
-                                style="background-color: rgba(0, 98, 244, 0.73)"
-                                >Dünya hızla dijitalleşiyor</span
-                              >
-                            </div>
-                            <div
-                              class="satir st sd-1 sw-4 sb-buyuk ss-siyah sp"
-                              style="color: rgb(248, 249, 250)"
-                            >
-                              <span
-                                style="background-color: rgba(0, 98, 244, 0.73)"
-                                >Siz de dijital dönüşüm trenine binin,
-                                kazanın.</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="item bp-orta current"
-                          data-bg="5993/modul/210216/5d6e46.jpeg"
-                          data-bg-mobile="5993/modul/210216/4f5f.jpeg"
-                          style="
-                            background-color: rgb(211, 204, 197);
-                            background-image: url('//d25tea7qfcsjlw.cloudfront.net/5993/modul/210216/5d6e46.jpeg');
-                          "
-                          data-initialised="1"
-                        >
-                          <div
-                            class="icerik ik-sag ik-alt ikm-sag ikm-alt ih-sag"
-                            data-bg-color=""
-                            data-bg-radius=""
-                          >
-                            <div
-                              class="satir st-top sd-1 sw-4 sb-buyuk ss-siyah sp"
-                              style="color: rgb(245, 245, 245)"
-                            >
-                              <span
-                                style="
-                                  background-color: rgba(0, 98, 244, 0.73);
-                                  border-radius: 3px;
-                                "
-                                >Dijital teknolojiden faydalanın</span
-                              >
-                            </div>
-                            <div
-                              class="satir st-top sd-2 sw-4 sb-buyuk ss-siyah sp"
-                              style="color: rgb(255, 255, 255)"
-                            >
-                              <span
-                                style="
-                                  background-color: rgba(0, 98, 244, 0.73);
-                                  border-radius: 3px;
-                                "
-                                >İşiniz büyüsün.</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="prev np" style="display: none">«</div>
-                      <div class="next np" style="display: none">»</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="banner-ic"></div>
           </div>
           <div id="bolum-iki-banner-arasi">
             <div id="bolum-orta-ust" class="bolum-orta-ust-alt">
@@ -2873,91 +2043,309 @@
                     class="bolum-kolon bolum-kolon-yatay"
                     id="bolum-orta-govde"
                   >
+                    <ol
+                      itemscope=""
+                      itemtype="https://schema.org/BreadcrumbList"
+                      class="breadcrumb"
+                    >
+                      <li
+                        itemprop="itemListElement"
+                        itemscope=""
+                        itemtype="https://schema.org/ListItem"
+                      >
+                        <a itemprop="item" href="https://www.softech-tr.com/">
+                          <span itemprop="name">Ana Sayfa</span>
+                          <meta itemprop="position" content="1" />
+                        </a>
+                      </li>
+                      <li
+                        itemprop="itemListElement"
+                        itemscope=""
+                        itemtype="https://schema.org/ListItem"
+                      >
+                        <a
+                          itemprop="item"
+                          href="https://www.softech-tr.com/blog"
+                        >
+                          <span itemprop="name">Blog</span>
+                          <meta itemprop="position" content="2" />
+                        </a>
+                      </li>
+                    </ol>
                     <div id="konum-govde">
-                      <h2>
-                        <span style="color: #2dc26b"
-                          >WE MOVED TO WORKINTON</span
-                        >
-                      </h2>
-                      <p>
-                        <span style="color: #34495e"
-                          ><img
-                            src="//d25tea7qfcsjlw.cloudfront.net/5993/link/104423/275132.png"
-                            alt="Workinton Marka ve Logo"
-                            height="669"
-                            width="669"
-                            data-src="//d25tea7qfcsjlw.cloudfront.net/5993/link/104423/275132.png"
-                        /></span>
-                      </p>
-                      <p>
-                        In order to be closer to our valued customers and to
-                        provide better service; We moved to WORKINTON (NEXT
-                        LEVEL). Transportation and Contact Information; It is
-                        available on the "CONTACT US" page of our Web Page. We
-                        are waiting for you to drink coffee and chat.
-                      </p>
-                      <h2>
-                        <span style="color: #2dc26b"
-                          >Let Us Be Your Digital Transformation Solution
-                          Partner</span
-                        >
-                      </h2>
-                      <p style="text-align: right">
-                        <img
-                          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 368'%3E%3C/svg%3E"
-                          alt="business-3224643_640"
-                          height="368"
-                          width="640"
-                          data-src="//d25tea7qfcsjlw.cloudfront.net/5993/link/104423/156278.jpeg"
-                          style="float: left"
-                        />
-                      </p>
-                      <p>
-                        Softech Technology and Consulting company; offers
-                        digital transformation and business management
-                        consultancy, information and communication technology
-                        products and solutions for the success and
-                        sustainability of your business / organization.
-                      </p>
-                      <p>
-                        We enable you to join the Digital Transformation
-                        Movement like successful businesses/organizations. We
-                        provide technology consultancy services for you to
-                        manage your corporate resources (human, information,
-                        facility, machinery, material, method and finance) in
-                        the most efficient way.
-                      </p>
-                      <h2>
-                        Bilimp-KVKK Compliant Integrated Communication Document
-                        and Process Management
-                      </h2>
-                      <p>
-                        <img
-                          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 655 435'%3E%3C/svg%3E"
-                          alt="background-3048816_640"
-                          height="435"
-                          width="655"
-                          data-src="//d25tea7qfcsjlw.cloudfront.net/5993/link/104423/156279.jpeg"
-                          style="float: left"
-                        />
-                      </p>
-                      <p>
-                        It is our foremost principle to offer innovative, useful
-                        and affordable solutions to our valued customers. With
-                        this understanding, we have included Bilimp among our
-                        products and we would like to introduce it. We loved
-                        Bilimp, and we are sure you will too.
-                      </p>
-                      <p>
-                        You'll hear a lot about Bilimp from now on, and
-                        rightfully so, you'll want to own it.
-                      </p>
-                      <p>
-                        With our expert team, we are always at your service
-                        before, during and after sales to meet your needs and
-                        requests.
-                      </p>
-                      <p>Click for more information</p>
+                      <div id="kategori-giris-yazisi">
+                        <h1 id="sayfa-ana-baslik">Blog</h1>
+                      </div>
+                      <div id="kategori-icerik-metin">
+                        <div class="frame blog sutun max3">
+                          <div class="frameInner">
+                            <div class="item">
+                              <div class="itemInner">
+                                <h2
+                                  class="itemBaslik clicktogo"
+                                  data-clicktogo="/blog/instagram-da-satis-yapmanin-puf-noktalar"
+                                  style="height: 210px"
+                                >
+                                  Instagram’da Satış Yapmanın Püf Noktalar
+                                </h2>
+                                <div class="itemIcerik">
+                                  <div class="itemFigure figureCenter">
+                                    <p>
+                                      <img
+                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/167649/k-4833.png"
+                                        alt="Instagram’da Satış Yapmanın Püf Noktalar"
+                                        height="262"
+                                        width="350"
+                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/167649/k-4833.png"
+                                        class="clicktogo"
+                                        data-clicktogo="/blog/instagram-da-satis-yapmanin-puf-noktalar"
+                                      />
+                                    </p>
+                                  </div>
+                                  <p>
+                                    <span style="font-weight: 400"
+                                      >Popüler fotoğraf ve video paylaşım sitesi
+                                      Instagram'ın hızlı büyümesi devam ediyor.
+                                      Snapchat her ne kadar popülerliğini
+                                      artırsa da, 2016 haziran itibari ile
+                                      Instagram toplam 500 milyon kullanıcıya
+                                      sahip.</span
+                                    >
+                                  </p>
+                                  <div class="devami">
+                                    <a
+                                      href="/blog/instagram-da-satis-yapmanin-puf-noktalar"
+                                      title="Instagram’da Satış Yapmanın Püf Noktalar"
+                                    >
+                                      Yazının Devamı
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="itemInner">
+                                <h2
+                                  class="itemBaslik clicktogo"
+                                  data-clicktogo="/blog/dijital-cagda-televizyonun-donusumu"
+                                  style="height: 210px"
+                                >
+                                  Dijital Çağda Televizyonun Dönüşümü
+                                </h2>
+                                <div class="itemIcerik">
+                                  <div class="itemFigure figureCenter">
+                                    <p>
+                                      <img
+                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/167469/k-3653.png"
+                                        alt="Dijital Çağda Televizyonun Dönüşümü"
+                                        height="262"
+                                        width="350"
+                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/167469/k-3653.png"
+                                        class="clicktogo"
+                                        data-clicktogo="/blog/dijital-cagda-televizyonun-donusumu"
+                                      />
+                                    </p>
+                                  </div>
+                                  <p>
+                                    <span style="font-weight: 400"
+                                      >Teknolojinin gelişmesiyle birlikte
+                                      dijital medya ve ilişkili olduğu tüm
+                                      sektörler de değişmeye başladı. İnternet
+                                      ağının genişlemesiyle birlikte televizyon
+                                      da bu gelişmelerden ...
+                                    </span>
+                                  </p>
+                                  <div class="devami">
+                                    <a
+                                      href="/blog/dijital-cagda-televizyonun-donusumu"
+                                      title="Dijital Çağda Televizyonun Dönüşümü"
+                                    >
+                                      Yazının Devamı
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="itemInner">
+                                <h2
+                                  class="itemBaslik clicktogo"
+                                  data-clicktogo="/blog/dijital-pazarlama-ve-geleneksel-pazarlama-arasindaki-10-fark"
+                                  style="height: auto"
+                                >
+                                  Dijital Pazarlama ve Geleneksel Pazarlama
+                                  Arasındaki 10 Fark
+                                </h2>
+                                <div class="itemIcerik">
+                                  <div class="itemFigure figureCenter">
+                                    <p>
+                                      <img
+                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/167468/k-3315.png"
+                                        alt="Dijital Pazarlama ve Geleneksel Pazarlama Arasındaki 10 Fark"
+                                        height="262"
+                                        width="350"
+                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/167468/k-3315.png"
+                                        class="clicktogo"
+                                        data-clicktogo="/blog/dijital-pazarlama-ve-geleneksel-pazarlama-arasindaki-10-fark"
+                                      />
+                                    </p>
+                                  </div>
+                                  <p>
+                                    <span style="font-weight: 400"
+                                      >Teknolojinin gelişip sosyal medyanın
+                                      hayatımıza iyice girmesi ile birlikte
+                                      pazarlama yöntemleri de değişiklik
+                                      göstermeye başlamıştır.
+                                    </span>
+                                  </p>
+                                  <div class="devami">
+                                    <a
+                                      href="/blog/dijital-pazarlama-ve-geleneksel-pazarlama-arasindaki-10-fark"
+                                      title="Dijital Pazarlama ve Geleneksel Pazarlama Arasındaki 10 Fark"
+                                    >
+                                      Yazının Devamı
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="itemInner">
+                                <h2
+                                  class="itemBaslik clicktogo"
+                                  data-clicktogo="/blog/web-site-tasarimi-ve-seo-iliskisi"
+                                  style="height: 210px"
+                                >
+                                  Web Site Tasarımı ve SEO İlişkisi
+                                </h2>
+                                <div class="itemIcerik">
+                                  <div class="itemFigure figureCenter">
+                                    <p>
+                                      <img
+                                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 350 262'%3E%3C/svg%3E"
+                                        alt="Web Site Tasarımı ve SEO İlişkisi"
+                                        height="262"
+                                        width="350"
+                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/166827/k-1315.png"
+                                        class="clicktogo"
+                                        data-clicktogo="/blog/web-site-tasarimi-ve-seo-iliskisi"
+                                      />
+                                    </p>
+                                  </div>
+                                  <p>
+                                    <span style="font-weight: 400"
+                                      >Kişisel veya kurumsal markaların dijital
+                                      platformlar üzerinden bilinirlik kazanarak
+                                      potansiyel müşterilerine ulaşmalarında en
+                                      etkili yöntem SEO uyumlu web
+                                      tasarımıdır.</span
+                                    >
+                                  </p>
+                                  <div class="devami">
+                                    <a
+                                      href="/blog/web-site-tasarimi-ve-seo-iliskisi"
+                                      title="Web Site Tasarımı ve SEO İlişkisi"
+                                    >
+                                      Yazının Devamı
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="itemInner">
+                                <h2
+                                  class="itemBaslik clicktogo"
+                                  data-clicktogo="/blog/world-wide-web-www-nedir"
+                                  style="height: 210px"
+                                >
+                                  World Wide Web (WWW) Nedir?
+                                </h2>
+                                <div class="itemIcerik">
+                                  <div class="itemFigure figureCenter">
+                                    <p>
+                                      <img
+                                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 350 262'%3E%3C/svg%3E"
+                                        alt="World Wide Web (WWW) Nedir?"
+                                        height="262"
+                                        width="350"
+                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/166550/k-3936.png"
+                                        class="clicktogo"
+                                        data-clicktogo="/blog/world-wide-web-www-nedir"
+                                      />
+                                    </p>
+                                  </div>
+                                  <p>
+                                    <span style="font-weight: 400"
+                                      >Sık sık internet ile karıştırılan ve asıl
+                                      kullanımı internete addedilen World Wide
+                                      Web, Türkçeye </span
+                                    >"Dünyayı Saran Ağ<i>"</i
+                                    ><span style="font-weight: 400">
+                                      adıyla çevrilmiştir.
+                                    </span>
+                                  </p>
+                                  <div class="devami">
+                                    <a
+                                      href="/blog/world-wide-web-www-nedir"
+                                      title="World Wide Web (WWW) Nedir?"
+                                    >
+                                      Yazının Devamı
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="itemInner">
+                                <h2
+                                  class="itemBaslik clicktogo"
+                                  data-clicktogo="/blog/mobil-uygulama-nedir-nasil-yapilir"
+                                  style="height: 210px"
+                                >
+                                  Mobil Uygulama Nedir, Nasıl Yapılır?
+                                </h2>
+                                <div class="itemIcerik">
+                                  <div class="itemFigure figureCenter">
+                                    <p>
+                                      <img
+                                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 350 262'%3E%3C/svg%3E"
+                                        alt="Mobil Uygulama Nedir, Nasıl Yapılır?"
+                                        height="262"
+                                        width="350"
+                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/kicerik/166449/k-2007.png"
+                                        class="clicktogo"
+                                        data-clicktogo="/blog/mobil-uygulama-nedir-nasil-yapilir"
+                                      />
+                                    </p>
+                                  </div>
+                                  <p>
+                                    <span style="font-weight: 400"
+                                      >Mobil uygulama, masaüstü veya dizüstü
+                                      bilgisayarlardan ziyade; akıllı telefonlar
+                                      ve tabletler gibi küçük, kablosuz bilgi
+                                      işlem aygıtlarında kullanılır.</span
+                                    >
+                                  </p>
+                                  <div class="devami">
+                                    <a
+                                      href="/blog/mobil-uygulama-nedir-nasil-yapilir"
+                                      title="Mobil Uygulama Nedir, Nasıl Yapılır?"
+                                    >
+                                      Yazının Devamı
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <ul id="kategori-sayfalandirma" class="clearfix">
+                        <li class="aktif"><a href="#konum-govde">1 / 4</a></li>
+                        <li><a href="/blog/2">SONRAKİ ›</a></li>
+                        <li><a href="/blog/4">SON »</a></li>
+                      </ul>
                     </div>
                   </div>
                   <div
@@ -2967,142 +2355,7 @@
                   <div
                     class="bolum-kolon bolum-kolon-dikey"
                     id="bolum-orta-sag"
-                  >
-                    <div id="konum-sag" class="konum">
-                      <div
-                        class="modul modul-grup-icerik"
-                        data-modul-id="393162"
-                      >
-                        <div class="modul-ic">
-                          <div class="modul-baslik" id="Cozum-Ortaklarimiz">
-                            Çözüm Ortaklarımız
-                          </div>
-                          <div
-                            class="frame carousel max2"
-                            style="
-                              touch-action: pan-y;
-                              user-select: none;
-                              -webkit-user-drag: none;
-                              -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-                            "
-                          >
-                            <div
-                              class="frameInner"
-                              style="transform: translate3d(-1400px, 0px, 0px)"
-                            >
-                              <div class="item">
-                                <div class="itemInner">
-                                  <div class="itemIcerik">
-                                    <p>
-                                      <img
-                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/565227.png"
-                                        alt="gazibilişimlogo(340x257px)"
-                                        height="257"
-                                        width="340"
-                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/565227.png"
-                                      />
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="itemInner">
-                                  <div class="itemIcerik">
-                                    <p>
-                                      <img
-                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/565226.png"
-                                        alt="Yalmark-logo2"
-                                        height="184"
-                                        width="245"
-                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/565226.png"
-                                      />
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="itemInner">
-                                  <div class="itemIcerik">
-                                    <p>
-                                      <img
-                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467678.jpg"
-                                        alt="uyumsoft-logo01"
-                                        height="349"
-                                        width="920"
-                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467678.jpg"
-                                      />
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="itemInner">
-                                  <div class="itemIcerik">
-                                    <p>
-                                      <img
-                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467679.jpg"
-                                        alt="dera-teknoloji01"
-                                        height="146"
-                                        width="317"
-                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467679.jpg"
-                                      />
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="itemInner">
-                                  <div class="itemIcerik">
-                                    <p>
-                                      <img
-                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467684.jpg"
-                                        alt="teracity01"
-                                        height="122"
-                                        width="283"
-                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467684.jpg"
-                                      />
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="itemInner">
-                                  <div class="itemIcerik">
-                                    <p>
-                                      <img
-                                        src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467687.png"
-                                        alt="EtgiGrupLogo-01"
-                                        height="100"
-                                        width="319"
-                                        data-src="//d25tea7qfcsjlw.cloudfront.net/5993/modul/393162/467687.png"
-                                      />
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="next np"></div>
-                            <div class="prev np"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="modul modul-esnek baslikYok"
-                        data-modul-id="393187"
-                      >
-                        <div class="modul-ic">
-                          <p>
-                            Softech Teknoloji ve Danışmanlık;
-                            <strong>çözüm ortaklarımız</strong> ile beraber
-                            uçtan uca tüm iş süreçlerinizin dijitalleşmesini
-                            sağlayan çözümlerimiz ile maliyetlerinizi azaltmak
-                            ve karlılığı artırmak için yenilikçi ve kaliteli
-                            çözümler sunmaktadır.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  ></div>
                 </div>
               </div>
             </div>
@@ -3156,7 +2409,7 @@
                               enctype="multipart/form-data"
                               data-bir="138820"
                               data-iki="234901"
-                              data-uc="1697987596096"
+                              data-uc="1697995201171"
                             >
                               <div class="fsrs">
                                 <input
@@ -3296,20 +2549,7 @@
             id="bolum-banner-alt"
             class="bolum-kolon-yatay bolum-banner-ust-alt"
           >
-            <div class="banner-ic">
-              <div id="konum-banner-alt" class="konum">
-                <div
-                  class="modul modul-grup-icerik baslikYok"
-                  data-modul-id="263694"
-                >
-                  <div class="modul-ic">
-                    <div class="frame blog sutun max3">
-                      <div class="frameInner"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="banner-ic"></div>
           </div>
           <div id="bolum-footer" class="bolum-kolon-yatay">
             <div class="bolum-konteyner">
@@ -3337,7 +2577,7 @@
         <li>
           <span class="clicktogo" data-clicktogo="tel:03122370991">
             <img
-              src="//d25tea7qfcsjlw.cloudfront.net/5993/msm/msm0.png"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 21'%3E%3C/svg%3E"
               alt="Telefon"
               height="21"
               width="23"
@@ -3349,7 +2589,7 @@
         <li>
           <span class="clicktogo" data-clicktogo="https://wa.me/905327687903">
             <img
-              src="//d25tea7qfcsjlw.cloudfront.net/5993/msm/msm6.png"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 21'%3E%3C/svg%3E"
               alt="WhatsApp"
               height="21"
               width="23"
@@ -3361,7 +2601,7 @@
         <li>
           <span class="clicktogo" data-clicktogo="mailto:info@softech-tr.com">
             <img
-              src="//d25tea7qfcsjlw.cloudfront.net/5993/msm/msm4.png"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 21'%3E%3C/svg%3E"
               alt="Eposta"
               height="21"
               width="23"
@@ -3373,7 +2613,7 @@
         <li>
           <span class="clicktogo" data-clicktogo="http://bit.ly/2MD5cM1">
             <img
-              src="//d25tea7qfcsjlw.cloudfront.net/5993/msm/msm5.png"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 21'%3E%3C/svg%3E"
               alt="Harita"
               height="21"
               width="23"
@@ -3388,7 +2628,7 @@
             data-clicktogo="https://www.facebook.com/tmsoftech"
           >
             <img
-              src="//d25tea7qfcsjlw.cloudfront.net/5993/msm/msm3.png"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 21'%3E%3C/svg%3E"
               alt="Facebook"
               height="21"
               width="23"
@@ -3403,7 +2643,7 @@
             data-clicktogo="https://twitter.com/tmsoftech"
           >
             <img
-              src="//d25tea7qfcsjlw.cloudfront.net/5993/msm/msm7.png"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 21'%3E%3C/svg%3E"
               alt="Twitter"
               height="21"
               width="23"
@@ -3444,35 +2684,6 @@
         </li>
       </ul>
     </div>
-    <div
-      class="modul-cerez ck-genis"
-      role="alert"
-      data-name="cerez-5993-095836"
-      data-konum="ck-genis"
-      data-bg-color=""
-      data-color=""
-      data-button-bg-color=""
-      data-button-color=""
-      data-border-color=""
-    >
-      <div class="ci">
-        <h4 class="cb">Çerez Kullanım Uyarısı</h4>
-        <p>
-          Size daha iyi bir kullanıcı deneyimi sunabilmek için çerezler
-          kullanıyoruz. Sitemizi incelemeye devam etmek için Kabul Ediyorum
-          düğmesine tıklayınız. Detaylı bilgi için kişisel verilerin korunması
-          hakkında açıklama metnimizi
-          <a
-            href="/cerez-kullanim-uyarisi"
-            target="_blank"
-            rel="noreferrer noopener"
-            >inceleyebilirsiniz</a
-          >. Kişisel Verileri Koruma Kurumu (KVKK) web sitesini ziyaret etmek
-          için <a href="http://www.kvkk.gov.tr" target="_blank">tıklayınız</a>.
-        </p>
-      </div>
-      <button aria-label="Close">Kabul Ediyorum</button>
-    </div>
     <script
       src="//d25tea7qfcsjlw.cloudfront.net/0/sablon/js-20231019161832.js"
       defer=""
@@ -3487,6 +2698,10 @@
       </form>
     </div>
     <div id="dugme-yukari-don"></div>
+    <script
+      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+      type="text/javascript"
+    ></script>
     <scribe-shadow
       id="crxjs-ext"
       style="
@@ -3502,10 +2717,6 @@
     <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
       <section id="shadow-host-companion"></section>
     </div>
-    <script
-      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
-      type="text/javascript"
-    ></script>
     <div id="PopupSignupForm_0" widgetid="PopupSignupForm_0">
       <!-- MC BANNER -->
       <div
