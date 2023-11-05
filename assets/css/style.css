@@ -9,7 +9,7 @@ Author URI: http://bootstrapthemes.co
    ========================================================================== */
 html,
 body {
-    background-color: #e3f6f5;
+    background-color: #ffffff !important;
     font-size: 14px;
     color: #797979;
     width: 100%;
@@ -83,9 +83,22 @@ a span {
 }
 p {
     margin: 0 0 15px;
+    font-size: 1.12rem !important;
 
 }
-
+.dropdown-menu {
+    padding-left: 3rem !important;
+    padding-top: 1.32rem !important;
+    
+}
+.dropdown-item {
+    background-color: rgba(70, 85, 131, 0.7);
+    color: #fff !important;
+}
+.dropdown-item:hover {
+    background-color: rgba(70, 85, 131, 0.7) !important;
+    text-decoration: underline !important;
+}
 .clear {
     clear: both;
 }
@@ -550,9 +563,6 @@ input::-ms-input-placeholder {
     left: 0; 
     right: 0; 
     z-index: 300;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color:rgba(34, 61, 97, 0.64);
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
@@ -561,7 +571,7 @@ input::-ms-input-placeholder {
 }
 .main_menu_bg{
     margin-top: 0px;
-    background-color: transparent;
+    background-color: rgba(70, 85, 131, 0.7);
 }
 .main_menu_bg .navbar-default {
     background-color: transparent; 
@@ -594,7 +604,7 @@ input::-ms-input-placeholder {
     padding: 0px 15px;
 }
 .navbar-brand>img {
-    max-width: 80%;
+    max-width: 70%;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
@@ -619,19 +629,20 @@ input::-ms-input-placeholder {
     box-shadow: 0 0px 0px 
 }
 
-/*.dropdown-menu .navbar-form .form-group input[type="text"]{
-    background-color:rgba(34, 61, 97, 0.68);
+/* .dropdown-menu .navbar-form .form-group input[type="text"]{
+    background-color:rgba(0, 103, 238, 0.68);
     border: 1px solid #e74c3c;
     color:#e74c3c;
     width: 300px;
-}
-.dropdown-menu .navbar-form .form-group .form-control::-webkit-input-placeholder{
+} */
+/* .dropdown-menu .navbar-form .form-group .form-control::-webkit-input-placeholder{
     color: #e74c3c;
+    background-color: #fff;
     opacity: 1; 
-}
-.dropdown-menu .navbar-form {
+} */
+/* .dropdown-menu .navbar-form {
     margin-right: -30px;
-}*/
+}*/ */
 
 .scrooldown{
     position: absolute;
@@ -1372,7 +1383,7 @@ li .single_team_text p{
 
 }
 .contact_info_content{
-    background: #fff;
+    background: #000;
     overflow: hidden;
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.01);
 }
@@ -1508,7 +1519,32 @@ li .single_team_text p{
 
 }
 
-
+/*Scrollbar*/
+/* Change the   width and color of the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Change the color of the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+      background: rgba(74, 92, 143, 0.5);
+    }
+    
+    /* Change the color on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(44, 58, 103, 0.7);
+  }
+  
+  /* Change the color of the scrollbar track on hover */
+  ::-webkit-scrollbar-track:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .bottom-img .footer-img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
 
 
 
